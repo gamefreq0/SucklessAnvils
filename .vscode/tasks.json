@@ -1,0 +1,26 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "gradle",
+			"id": "/home/keith/Coding/Java/SucklessAnvilsbuildSucklessAnvils",
+			"script": "build",
+			"description": "Assembles and tests this project.",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"project": "SucklessAnvils",
+			"buildFile": "/home/keith/Coding/Java/SucklessAnvils/build.gradle",
+			"rootProject": "SucklessAnvils",
+			"projectFolder": "/home/keith/Coding/Java/SucklessAnvils",
+			"workspaceFolder": "/home/keith/Coding/Java/SucklessAnvils",
+			"args": "",
+			"javaDebug": false,
+			"problemMatcher": [
+				"$gradle"
+			],
+			"label": "gradle: build"
+		}
+	]
+}
