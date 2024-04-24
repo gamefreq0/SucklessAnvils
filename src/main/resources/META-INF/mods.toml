@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+issueTrackerURL="https://github.com/gamefreq0/SucklessAnvils/issues"
+showAsResourcePack=false
+
+[[mods]]
+    modId="sucklessanvils"
+    version="1.16.5-0.0.0.0"
+    displayName="Suckless Anvils"
+    displayURL="https://github.com/gamefreq0/SucklessAnvils"
+    credits="I'd like to thank the bestest girl for pushing me to make an MC mod"
+    authors="gamefreq0"
+    description='''
+    Removes some of the suck from the anvil mechanics
+    '''
+
+[[dependencies.sucklessanvils]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.sucklessanvils]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
